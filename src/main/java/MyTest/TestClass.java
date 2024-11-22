@@ -11,7 +11,7 @@ public class TestClass {
 	@Test
 	public static void test1()
 	{
-		
+		//added comment
 		try {
 			System.setProperty("webdriver.chrome.driver", homePath + "\\resources\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
