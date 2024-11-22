@@ -18,8 +18,8 @@ public class TestClass {
 			options.addArguments("start-maximized");		
 			WebDriver driver=new ChromeDriver();
 			driver.get("https://www.google.com/");
-			
-			Thread.sleep(10000);
+			System.out.println("xxxxxxxxxxxxxxxxxx"+driver.getCurrentUrl()+"xxxxxxxxxxxxxxxxxx");
+			Thread.sleep(4000);
 			driver.quit();
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
